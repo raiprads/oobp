@@ -13,7 +13,7 @@ class AuthController implements RespondToUserRegistration{
 
 	public function register()
 	{
-		$registration->execute([], $this);
+		$this->registration->execute([], $this);
 	}
 
 	public function userRegisteredSuccesfully()
